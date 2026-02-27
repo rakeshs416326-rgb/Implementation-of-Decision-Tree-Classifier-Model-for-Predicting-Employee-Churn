@@ -21,12 +21,12 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 10) Find the accuracy of our model and predict the require values.
 ~~~
 ## Program:
-~~~
+```
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 Developed by: Rakesh S
 RegisterNumber:  212225240114
-~~~
-~~~
+```
+```
 import pandas as pd
 data = pd.read_csv("Employee.csv")
 data
@@ -51,7 +51,7 @@ from sklearn import metrics
 accuracy = metrics.accuracy_score(y_test,y_pred)
 accuracy
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
-~~~
+```
 
 ## Output:
 <img width="532" height="729" alt="image" src="https://github.com/user-attachments/assets/ff5cc940-29ca-4c94-b5c1-dc4e203360b6" />
